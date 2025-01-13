@@ -103,7 +103,7 @@ section li {margin-left: 1rem;}
 table {border-collapse:collapse;}
 
 /*画像全般の設定*/
-img {border: none;max-width: 100%;height: auto;vertical-align: middle;}
+img {border: none;max-width: 65%; margin: 0 auto;height: auto;vertical-align: middle;}
 
 /*videoタグ*/
 video {max-width: 100%;}
@@ -214,7 +214,7 @@ header .kazari {
 	margin: 0 auto;
 	position: relative;
 	width: 1px;		/*ラインアニメーションの幅。お好みで。*/
-	height: 50px;	/*ラインアニメーションの高さ。お好みで。*/
+	height: 20px;	/*ラインアニメーションの高さ。お好みで。*/
 	background: rgba(255,255,255,0.5);	/*ラインアニメーションの土台部分の色。255,255,255は白のことで0.5は色が50%出た状態。*/
 }
 
@@ -514,10 +514,10 @@ header .kazari {
 .menu .text {
 	margin: 0;
 	padding: 10px;	/*ボックス内の余白*/
-	position: absolute;
+	margin: 0 auto;
 	left: 0px;
 	bottom: 0px;
-	width: 100%;
+	width: 65%;
 	text-align: center;
 	background: rgba(0,0,0,0.6);	/*背景色。0,0,0は黒の事で0.6は色が60%出た状態。*/
 	color: #fff;	/*文字色*/
